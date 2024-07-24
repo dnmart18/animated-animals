@@ -1,12 +1,3 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.Duck)
-    basic.pause(500)
-    basic.showLeds(`
-        . . . . .
-        . # # . .
-        # # # . .
-        . # # # #
-        . # # # .
-        `)
-    basic.pause(500)
+    servos.P1.setAngle(90)
 })
